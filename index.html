@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b98dca2d53.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="box">
+            <nav>
+                <img src="logo3.png" class="logo">
+                <ul id="sidemenu">
+                    <li class="activex"><a href="#header">Home</a></li>
+                    <li class="activex"><a href="#about">About</a></li>
+                    <li class="activex"><a href="#service">Service</a></li>
+                    <li class="activex"><a href="#contact">Contact</a></li>
+                    <li class="activex"><a href="#education">Education</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars fa-beat-fade" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p><span>Developer/Linux/C++/Web-dev</span></p>
+                <h1>Hi, I'm <span>Himaanshu </span><br>presenting self on this platform</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="box">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="explain">Hello! I'm <span>Himaanshu Badgujar</span>, a passionate and driven Computer
+                        Science student currently pursuing a B.Tech degree. With a strong focus on web development,
+                        cybersecurity, and software engineering, I aim to create innovative solutions that solve
+                        real-world problems. Over the years, I've honed my skills in C++, Python, and various web
+                        technologies, completing numerous projects, including game development, ethical hacking, and
+                        more. I'm deeply interested in exploring new technologies, constantly learning, and applying my
+                        knowledge to real-world challenges.
+                        <br>
+                        As someone with a keen interest in both front-end and back-end development, I believe in
+                        building user-friendly and secure platforms. Whether it's through creating engaging websites,
+                        developing robust applications, or delving into the complexities of cybersecurity, I am
+                        committed to pushing the boundaries of what technology can achieve. Feel free to explore my
+                        portfolio. <span style="color: rgb(53, 93, 109);">Beyond the world of code, there's someone
+                            special for whom i want to invest self.</span>
+
+                    </p>
+
+                    <div class="tab-title">
+                        <p class="tab-link active-link" onclick="opentab('education')">Education</p>
+                        <p class="tab-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-link" onclick="opentab('projects')">projects</p>
+                    </div>
+                    <div class="tab-content active-tab" id="education">
+                        <ul>
+                            <li><span>2020-10th</span><br>70%, CBSE <br> Dronacharya International School, Jaipur</li>
+                            <li><span>2023-12th</span><br>PCM/62%, RBSE <br> Eklavya accadmy(Mehta public school),
+                                Jaipur</li>
+                            <li><span>currently pursuing</span><br>B.Tech in Computer Science <br>Sri balaji collage of
+                                Engineering and Technology <br>Jaipur</li>
+                            <li><span>Level 1</span><br>6.85 CGPA (CSE)</li>
+                            <li><span>Level 2</span><br>7.45 CGPA (CSE)</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="skills">
+                        <ul>
+                            <li><span>Linux</span><br>Zorin/Kali</li>
+                            <li><span>Web Development</span><br>Web portfolio/Showcase</li>
+                            <li><span>C++</span><br>OOP/Data-structure</li>
+                            <li><span>Python</span><br>Pygame(Simple basic level one game)</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="projects">
+                        <ul>
+                            <li><span>Project-1 Python</span><br>Pygame(Pong game)</li>
+                            <li><span>Project-2 Portfolio</span><br>portfolio</li>
+                            <li><span>Project-3 C++</span><br>Login page <br>Student database management system <br>CGPA
+                                calculator <br>Scientific calculator <br> Rock paper scissor game <br> Casino number
+                                guessing game</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="service">
+        <div class="box">
+            <h1 class="sub-title">My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>I can develop a website for your business or personal use. Just at a basic level.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-square-binary"></i>
+                    <h2>C++ Programming</h2>
+                    <p>I can help you in learning C++ programming language. I can also help you in solving problems on
+                        C++.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-linux"></i>
+                    <h2>Linux</h2>
+                    <p>I can help you in learning Linux. I can also help you in solving problems on Linux. Zorin/Kali
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Python</h2>
+                    <p>I dont know much about python. But i can help you in learning Python, specially in Pygame. I can
+                        help you to develop tools like wifi password hacker, virus maker.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="box">
+            <h1 class="sub-title">Contact Me</h1>
+            <div class="contact-left">
+                <div class="contact-info">
+                    <div class="row">
+                        <i class="fa-solid fa-user"></i>
+                        <div class="info1">
+                            <h3>Name</h3>
+                            <p class="info-data">Himaanshu Badgujar</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div class="info2">
+                            <h3>Email</h3>
+                            <p class="info-data">hbadgujar517@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <i class="fa-solid fa-phone"></i>
+                        <div class="info3">
+                            <h3>Phone</h3>
+                            <p class="info-data">+91 9257797482 <br>+91 9314397482</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div class="info4">
+                            <h3>Location</h3>
+                            <p class="info-data">Jaipur, Rajasthan, India</p>
+                        </div>
+
+                    </div>
+                    <a href="himanshuresume25.pdf" download class="btn1">Resume</a>
+                    <div class="social-icon">
+                        <a href="https://www.instagram.com/himaanshu_20th/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.github.com/HIMANSHUxVILGAX"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.youtube.com/@real1917"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="review" name="Review" placeholder="Rate my portfolio between 1-10" required>
+                    <textarea name="Message" rows="6" placeholder="Any Suggestions"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <p class="Note"><span>NOTE:</span> 85% JS by cursor ai, Logo by font awesome.</p>
+            
+            <script>
+                var tablinks = document.getElementsByClassName("tab-link");
+                var tabcontents = document.getElementsByClassName("tab-content");
+
+                function opentab(tabname) {
+                    for (tablink of tablinks) {
+                        tablink.classList.remove("active");
+                    }
+                    for (tabcontent of tabcontents) {
+                        tabcontent.classList.remove("active-tab");
+                    }
+                    event.currentTarget.classList.add("active");
+                    document.getElementById(tabname).classList.add("active-tab");
+
+                }
+            </script>
+
+            <script>
+                var sidemenu = document.getElementById("sidemenu");
+                function openmenu(){
+                    sidemenu.style.right = "0";
+                }
+                function closemenu(){
+                    sidemenu.style.right = "-200px";
+                }
+            </script>
+            <script>
+                const scriptURL = 'https://script.google.com/macros/s/AKfycbwV_Z_SYhFCqaFVH2V4iLR-vfhQ2fgI_Xqzcmy6pnk21szmk3SgLihEqX_1W1TQOw/exec'
+                const form = document.forms['submit-to-google-sheet']
+              
+                form.addEventListener('submit', e => {
+                  e.preventDefault()
+                  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                    .then(response => {
+                        console.log('Success!', response);
+                        alert('Thank you for your review!');
+                        form.reset();
+                    })
+                    .catch(error => console.error('Error!', error.message))
+                })
+              </script>
+</body>
+
+</html>
